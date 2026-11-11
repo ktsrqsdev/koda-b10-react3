@@ -1,7 +1,11 @@
 // import { useState } from 'react'
-
-function App() {
-
+import Search from "./components/Search"
+export default function App() {
+    return (
+        <>
+        <Search></Search>
+        </>
+    )
+    
 }
 
-export default App
